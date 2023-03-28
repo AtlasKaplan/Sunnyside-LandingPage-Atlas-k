@@ -129,7 +129,7 @@ button:hover {
 }
 /* //////////////////HERO SECTION///////////////////////// */
 .hero {
-    background-image: url("/images/desktop/image-header.jpg");
+    background-image: url("images/desktop/image-header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -253,7 +253,7 @@ h1 {
 
 
 .seccion-fruit1, .seccion-fruit2 {
-    background-image: url("/images/desktop/image-graphic-design.jpg");
+    background-image: url("images/desktop/image-graphic-design.jpg");
     background-size: cover;
     background-position: center;
     flex-basis: 50%;
@@ -267,7 +267,7 @@ h1 {
 }
 
 .seccion-fruit2 {
-    background-image: url("/images/desktop/image-photography.jpg");
+    background-image: url("images/desktop/image-photography.jpg");
 }
 
 .fruit-title {

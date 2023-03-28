@@ -518,7 +518,6 @@ footer {
         flex-direction: column;
     }
     .seccion-fruit1,.seccion-fruit2{
-        flex-basis: 100%;
         padding: 350px 15px 50px;
     }
     .testimonial {

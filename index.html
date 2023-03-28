@@ -42,29 +42,37 @@
   <div class="sections">
     <div class="section1">
       <div class="texto-learn">
-        <h2 class="sub-title">Transform your brand</h2>
-        <p>
-          We are a full-service creative agency specializing in helping brands grow fast.
-          Engage your clients through compelling visuals that do most of the marketing for you.
-        </p>
-        <p class="learn-more" >Learn more</p>
+        <div class="txto-wrapper">
+          <h2 class="sub-title">Transform your brand</h2>
+          <p>
+            We are a full-service creative agency specializing in helping brands grow fast.
+            Engage your clients through compelling visuals that do most of the marketing for you.
+          </p>
+          <p class="learn-more" >Learn more</p>
+        </div>
       </div>
       <div class="imagen1">
-    
+        <picture>
+          <source media="(max-width:994px )" srcset="images/mobile/image-transform.jpg">
+          <source media="(min-width:994px )" srcset="images/desktop/image-transform.jpg">
+          <img src="images/desktop/image-transform.jpg" alt="Engage">
+        </picture>
       </div>
     </div>
     
     <div class="section2">
       <div class="texto-learn">
-        <h2 class="sub-title">Stand out to the right audience</h2>
-        <p>
-          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and
-          extend your brand in digital places.
-        </p>
-        <p class="learn-more2">Learn more</p>
+        <div class="txto-wrapper">
+          <h2 class="sub-title">Stand out to the right audience</h2>
+          <p>
+            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <p class="learn-more2">Learn more</p>
+        </div>
       </div>
       <div class="imagen2">
-    
+        <img src="/images/desktop/image-stand-out.jpg" alt="">
       </div>
     </div>
   </div>
@@ -164,6 +172,7 @@
   toggle.addEventListener('click', function () {
 
     nav.classList.toggle("active");
+    toggle.classList.toggle("active");
 
   })
 </script>
